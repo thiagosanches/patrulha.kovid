@@ -5,6 +5,9 @@ Simples bot que navega no 'explore' do instagram e comenta em perfis abertos. A 
 
 ### Como executar?
 ```bash
+git clone https://github.com/thiagosanches/patrulha.kovid.git
+cd patrulha.kovid
+npm i puppeteer
 node main.js false <usuário instagram> '<senha instagram>'
 ```
 
