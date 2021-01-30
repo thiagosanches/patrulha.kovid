@@ -11,7 +11,7 @@ npm i puppeteer
 node main.js false <usuário instagram> '<senha instagram>'
 ```
 
-Você pode passar `true` ao invés de `false` se quer fazer apenas um rascunho para ver como o bot se comporta, desta forma ele não comenta nas postagens.
+Você pode passar `true` (`isDraft`) ao invés de `false`, desta forma o bot entende que ele vai fazer apenas um rascunho e não comentar nas postagens.
 
 ### Próximos passos?
 Adicionar análise das fotos, identificando máscaras nas pessoas (???).
